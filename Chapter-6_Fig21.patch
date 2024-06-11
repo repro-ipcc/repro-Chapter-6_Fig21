@@ -1,0 +1,15 @@
+diff --git a/CMIP6_reg_mean_fut_PM_timeseries_IPCC_fig_AR6_regs.py b/CMIP6_reg_mean_fut_PM_timeseries_IPCC_fig_AR6_regs.py
+index 8dcefc8..1f44b3c 100644
+--- a/CMIP6_reg_mean_fut_PM_timeseries_IPCC_fig_AR6_regs.py
++++ b/CMIP6_reg_mean_fut_PM_timeseries_IPCC_fig_AR6_regs.py
+@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
+ from matplotlib.ticker import MultipleLocator
+ import matplotlib.lines as mlines
+ 
+-DATA_DIR    = '/home/h06/sturnock/Python/UKESM_cmip6/AR6_reg_mean_txt_files/'
+-PLOT_DIR    = '/net/home/h06/sturnock/Python/UKESM_cmip6/Images_multi_mods/IPCC_figs/'
++DATA_DIR    = '../dap.ceda.ac.uk/badc/ar6_wg1/data/ch_06/ch6_fig21/v20220928/'
++PLOT_DIR    = '../'
+ SCEN        = ['ssp126','ssp245','ssp370','ssp370-lowNTCF','ssp370-lowNTCFCH4','ssp585']
+ PLOT_LAB    = ['ssp126','ssp245','ssp370','ssp370-lowSLCF-highCH4','ssp370-lowSLCF-lowCH4','ssp585']
+ 

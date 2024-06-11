@@ -1,0 +1,1 @@
+wget -e robots=off --mirror --no-parent -r https://dap.ceda.ac.uk/badc/ar6_wg1/data/ch_06/ch6_fig21/v20220928/
